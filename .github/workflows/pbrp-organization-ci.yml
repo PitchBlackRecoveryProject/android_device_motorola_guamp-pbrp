@@ -22,7 +22,7 @@ env:
   SFPassword: ${{ secrets.SFPassword }}
   SFUserName: ${{ secrets.SFUserName }}
   TARGET: "pbrp"
-  EXTRA_CMD: "cd bootable/recovery; patch -p1 < device/motorola/guamp/patches/bootable-recovery-twrp-cpp.patch"
+  EXTRA_CMD: "cd bootable/recovery; patch -p1 < ../../device/motorola/guamp/patches/bootable-recovery-twrp-cpp.patch"
 
 jobs:
   PBRP_CI:
