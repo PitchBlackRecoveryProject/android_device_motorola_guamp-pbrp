@@ -221,6 +221,7 @@ TW_INCLUDE_FASTBOOTD := true
 # PBRP flags
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
